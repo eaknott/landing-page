@@ -100,7 +100,10 @@ button.awesome-button {
 }
 
 img {
-    border-radius: 10px;;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: medium;
 }
 
 .information {
