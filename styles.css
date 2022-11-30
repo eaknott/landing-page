@@ -29,6 +29,11 @@ body {
     font-weight: bold;
 }
 
+.logo, .header-links {
+    min-width: 100px;
+    flex: 0 0 auto;
+}
+
 .header-links, .subtext {
     display: flex;
     font-size: 18px;
@@ -68,12 +73,13 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    flex: 1;
 }
 
 .awesome, .subtext {
     margin-bottom: 8px;
     margin-right: 24px;
+    width: 400px;
+    flex: 0 0 auto;
 }
 
 .subtext {
@@ -111,7 +117,8 @@ img {
     font-weight: 900;
     color: #1f2937;
     margin: 32px;
-    min-width: 100px; 
+    min-width: 500px;
+    flex: 0 0 auto;
 }
 
 .photos {
@@ -128,7 +135,7 @@ img {
     flex-direction: column;
     background-color: #e5e7eb;
     align-items: center;
-    padding: 0 300px;
+    padding: 0;
 }
 
 .quote {
@@ -139,12 +146,15 @@ img {
     font-size: 36px;
     margin: 30px 60px 8px 60px;
     width: 700px;
+    flex: 0 0 auto;
 }
 
 .quoted {
     font-weight: 600;
-    margin: 8px 60px 30px auto;
+    margin: 8px 0 30px auto;
     min-width: 200px;
+    display: flex;
+    flex: 0 0 auto;
 }
 
 .call {
