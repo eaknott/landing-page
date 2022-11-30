@@ -102,6 +102,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 0 0 auto;
 }
 
 .info-header {
@@ -110,6 +111,7 @@ img {
     font-weight: 900;
     color: #1f2937;
     margin: 32px;
+    min-width: 100px; 
 }
 
 .photos {
@@ -136,12 +138,13 @@ img {
     font-weight: 200;
     font-size: 36px;
     margin: 30px 60px 8px 60px;
-    max-width: 700px;
+    width: 700px;
 }
 
 .quoted {
     font-weight: 600;
     margin: 8px 60px 30px auto;
+    min-width: 200px;
 }
 
 .call {
