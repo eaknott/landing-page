@@ -14,11 +14,19 @@ body {
 .header, .container {
     background-color: #1F2937;
     display: flex;
-    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    width: 750px;
+    flex: 0 0 auto;
+    margin: 0 16px 0 16px;
 }
 
 .header {
     padding: 0 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -27,6 +35,8 @@ body {
     display: flex;
     align-items: center;
     font-weight: bold;
+    padding-left: 10px;
+    margin-right: auto;
 }
 
 .logo, .header-links {
@@ -42,6 +52,7 @@ body {
 
 .header-links {
     margin-left: auto;
+    margin-right: 10px;
 }
 
 ul {
@@ -60,7 +71,7 @@ a {
 
 .container {
     display: flex;
-    padding: 60px;
+    padding: 90px 60px;
     justify-content: center;
 }
 
@@ -131,6 +142,7 @@ img {
     gap: 24px;
     max-width: 700px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .quotation {
@@ -150,21 +162,23 @@ img {
     margin: 30px 60px 8px 60px;
     width: 700px;
     flex: 0 0 auto;
+    padding-top: 60px;
 }
 
 .quoted {
     font-weight: 600;
-    margin: 8px 0 30px auto;
-    min-width: 200px;
+    margin: 8px 5px 30px 500px;
+    width: 200px;
     display: flex;
     flex: 0 0 auto;
+    padding-bottom: 60px;
 }
 
 .call {
     display: flex;
     justify-content: center;
     align-self: center;
-    padding: 32px 60px;
+    padding: 50px 60px;
 }
 
 .call-box {
@@ -210,5 +224,5 @@ button.call-button {
     background-color: #1F2937;
     color: #e5e7eb;
     align-items: center;
-    padding: 24px 60px;
+    padding: 40px 60px;
 }
